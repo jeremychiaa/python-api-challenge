@@ -17,7 +17,7 @@ There are two parts to this project. The different folders inside this repositor
 
 ### WeatherPy
 
-For the first part of this project (**WeatherPy**), I created a Python script to visualize the weather of 500+ cities across the world of varying distances from the equator. Using the numpy package, I generated a random set of at least 500 latitude and longitude coordinates and used a package called Citipy to identify the nearest city for each latitude and longitude pair. I then made API calls to the OpenWeatherMap API to get weather data for each of the cities. After the API calls were complete, I saved the retrieved data to a csv file, which can be found [here](./WeatherPy/output_data).
+For the first part of this project (**WeatherPy**), I created a Python script to visualize the weather of 500+ cities across the world of varying distances from the equator. Using the numpy package, I generated a random set of at least 500 latitude and longitude coordinates and used a package called Citipy to identify the nearest city for each latitude and longitude pair. I then made API calls to the OpenWeatherMap API to get weather data for each of the cities.
 
 Using the data I received from the OpenWeatherMap API, I built a series of scatter plots to visualize the following relationships:
 
@@ -39,7 +39,7 @@ I then conducted a linear regression on each relationship. But, this time, I sep
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-After each plot, I included a small explanation of what the linear regression is modeling and of any other interesting relationships I found. Saved PNG images of all the plots I created are available [here](./WeatherPy/Images).
+After each plot, I included a small explanation of what the linear regression is modeling and of any other interesting relationships I found. Saved PNG images of all the plots I created are available [here](WeatherPy/output).
 
 ### VacationPy
 
@@ -72,7 +72,7 @@ For this project, I used jupyter notebook to render and display the results of t
 
 ## <a name="nb"></a>Images
 
-* Static images of the different visualizations I created can be found [here](./WeatherPy/Images).
+* Static images of the different visualizations I created can be found [here](WeatherPy/output).
 
 ## <a name="technologies"></a>Technologies Used
 
